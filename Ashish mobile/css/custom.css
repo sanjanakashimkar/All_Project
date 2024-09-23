@@ -1,0 +1,156 @@
+.sidebar .list-group-item {
+  border: none;
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+}
+.sidebar .list-group-item a {
+  color: #333;
+
+  text-decoration: none;
+}
+.sidebar .list-group-item:hover {
+  background-color: #ff0000;
+}
+.product-item {
+  transition: transform 0.3s;
+}
+.product-item:hover {
+  transform: translateY(-5px);
+}
+.product-item img {
+  transition: transform 0.3s;
+}
+.product-item:hover img {
+  transform: scale(1.05);
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.product-item .card-img-top
+{
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.breadcrumb-item a {
+  color: #007bff;
+}
+
+.breadcrumb-item.active a {
+  color: #6c757d;
+}
+
+.sidebar .btn {
+  width: 100%;
+  text-align: left;
+}
+
+
+/* .card-img-top {
+  height: 300px;
+  width: 100%;
+  margin-top: 22;
+  object-fit: cover;
+} */
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+ 
+  .sidebar {
+      display: none;
+  }
+
+  .col-lg-3 {
+      display: none;
+  }
+
+  .col-lg-9 {
+      width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  
+
+  .sidebar {
+      display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+      display: block;
+  }
+}
+
+
+/* whats app icon Start */
+    /* whats aap acount*/
+    .whats-app {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 180px;
+      right: 35px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 50;
+      margin-top:-40px;
+  }
+  
+  .my-float {
+      margin-top: 10px;
+  }
+  
+  .call {
+      position: fixed;
+      width: 59px;
+      height: 58px;
+      bottom: 100px;
+      right: 35px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 50;
+  
+  }
+  
+  .my-float {
+      margin-top: 10px;
+  }
+  
+  @media (max-width: 768px){
+      
+      .whats-app{
+          margin-left:-200px;
+      }
+      
+      
+  }
+  
+/* whats app icon End */
+
